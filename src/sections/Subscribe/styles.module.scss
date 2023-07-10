@@ -1,0 +1,76 @@
+@import "styles/vars";
+
+.subscribe {
+  padding: 92px 0;
+  align-items: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 513px;
+    height: 358px;
+    background: $green-color;
+    filter: blur(175px);
+    left: -200px;
+    top: 0;
+  }
+}
+
+.images {
+  position: relative;
+  grid-column: 6 span;
+}
+
+.mainImage {
+  position: absolute;
+  bottom: -40px;
+  right: 40px;
+  z-index: 1;
+}
+
+.content {
+  grid-column: 8 / span 5;
+}
+
+.title {
+  font-family: $secondary-family;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.descr {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $blue-color;
+  padding: 4px 4px 4px 24px;
+  border-radius: 8px;
+  margin-top: 40px;
+  column-gap: 16px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  color: $light-color;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  width: 100%;
+
+  &::placeholder {
+    color: rgb(255, 255, 253, 0.72);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}

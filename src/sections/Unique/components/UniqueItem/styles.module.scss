@@ -1,0 +1,64 @@
+@import "styles/vars";
+
+.unique {
+  grid-column: 4 span;
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.footer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  //align-items: center;
+}
+
+.endsInContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.endsTitle {
+  color: $gray-color;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.endsInContent {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.endsIn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+}

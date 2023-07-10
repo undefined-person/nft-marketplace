@@ -1,0 +1,84 @@
+@import "styles/vars";
+
+.footer {
+  padding: 92px 24px;
+}
+
+.footerTop {
+  padding-bottom: 48px;
+  border-bottom: 1px solid $gray-color;
+}
+
+.content {
+  grid-column: 3 span;
+}
+
+
+.descr {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.socials {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 24px;
+}
+
+.icon {
+  fill: $light-color;
+  transition: fill 0.3s ease-in-out;
+
+  &:hover {
+    fill: $primary-color;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 6 / span 7;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 24px;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.footerBottom {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.terms {
+  display: flex;
+  column-gap: 28px;
+}

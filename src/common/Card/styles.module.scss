@@ -1,0 +1,9 @@
+@import "styles/vars";
+
+.card {
+  border-radius: 16px;
+  border-top: 1px solid $primary-color;
+  background: $blue-color;
+  box-shadow: 0 9px 50px 0 rgba(23, 36, 65, 0.04);
+  padding: 20px;
+}

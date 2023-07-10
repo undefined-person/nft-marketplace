@@ -1,0 +1,32 @@
+@import "styles/vars";
+
+.header {
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  column-gap: 40px;
+}
+
+.link {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: $primary-color;
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+      width: 100%;
+  }
+}

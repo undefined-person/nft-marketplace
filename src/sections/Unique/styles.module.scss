@@ -1,0 +1,36 @@
+@import "styles/vars";
+
+.container {
+  margin-top: 92px;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    width: 434px;
+    height: 305px;
+    background: $green-color;
+    z-index: -1;
+    filter: blur(175px);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  font-family: $secondary-family;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  width: 506px;
+}
+
+.content {
+  margin-top: 64px;
+}

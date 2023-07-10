@@ -1,0 +1,23 @@
+.artist {
+  display: flex;
+  align-items: flex-end;
+  padding: 24px;
+  border-radius: 18px;
+  column-gap: 12px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.avatar {
+  border-radius: 50%;
+}

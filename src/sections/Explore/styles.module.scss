@@ -1,0 +1,49 @@
+@import "styles/vars";
+
+.explore {
+  margin-top: 92px;
+  padding: 92px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  max-width: 426px;
+}
+
+.title {
+  font-family: $secondary-family;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.descr {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.navigation {
+  display: flex;
+  column-gap: 36px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.images {
+  position: relative;
+}
+
+.image {
+  border-radius: 26px;
+}
+
+.image:nth-child(1) {
+  position: absolute;
+  left: -330px;
+  z-index: 2;
+  bottom: -80px;
+}

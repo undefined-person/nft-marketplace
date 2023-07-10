@@ -1,0 +1,29 @@
+@import "vars";
+@import "reset";
+@import "fonts";
+
+body {
+  background-color: #090f1d;
+  background-image: url(https://file.rendit.io/n/Mp3bBJGszgV3YTZ6Wmem.png);
+  background-size: cover;
+  background-blend-mode: color-burn;
+  color: $light-color;
+  font-family: $main-family;
+  font-size: 16px;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: $offset;
+}
+
+.primary {
+  color: $primary-color;
+}
